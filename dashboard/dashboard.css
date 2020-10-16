@@ -8,6 +8,12 @@ body {
   vertical-align: text-bottom;
 }
 
+.themed-grid-col {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: white;
+  border: 1px solid rgba(86, 61, 124, .2);
+}
 /*
  * Sidebar
  */
