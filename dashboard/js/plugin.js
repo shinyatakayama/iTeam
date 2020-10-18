@@ -2,10 +2,13 @@ var chartJsPluginCenterLabel = {
     labelShown: false,
   
     afterRender: function (chart) {
-      // afterRender は何度も実行されるので、２回目以降は処理しない
-      if (this.labelShown) {
-        return;
-      }
+    // afterRender は何度も実行されるので、２回目以降は処理しない
+    //   if (this.labelShown) {
+    //     return;
+    //   }
+    if(chart.canvas.id === "chart-area"){
+        alert("test")
+    
       this.labelShown = true;
       // ラベルの HTML
       var value = chart.data.datasets[0].data[0];
@@ -21,7 +24,10 @@ var chartJsPluginCenterLabel = {
       // ラベル描画
       var canvas = chart.ctx.canvas;
       canvas.parentNode.insertBefore(labelBox, canvas.nextElementSibling);
-    },
+    }
+    }
+
+
   };
   
   // 上記プラグインの有効化
