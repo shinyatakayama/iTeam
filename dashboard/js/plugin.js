@@ -7,7 +7,6 @@ var chartJsPluginCenterLabel = {
     //     return;
     //   }
     if(chart.canvas.id === "chart-area"){
-        alert("test")
     
       this.labelShown = true;
       // ラベルの HTML
