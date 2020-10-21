@@ -8,7 +8,9 @@
     align-items: center;
     justify-content: center;
     /* グラフ上に配置 */
-    margin-top: -240px;
+    margin-top: -240px !important;
+    /* グラフ中央に配置 */
+    margin: auto;
   }
   
   /* タイトル、値 */

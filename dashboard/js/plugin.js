@@ -14,7 +14,7 @@ var chartJsPluginCenterLabel = {
             var labelBox = document.createElement('div');
             labelBox.classList.add('label-box');
             labelBox.innerHTML = '<div class="label">'
-                + '<div class="title">Progress</div>'
+                // + '<div class="title">Progress</div>'
                 + '<div class="value">'
                 + value
                 + '<span class="per">%</span>'
