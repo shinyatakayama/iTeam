@@ -4,20 +4,12 @@
   var myBarChart = new Chart(ctx, {
     type: 'bar',
     data: {
-      labels: ['8月1日', '8月2日', '8月3日', '8月4日', '8月5日', '8月6日', '8月7日'],
+      labels: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11'],
       datasets: [
         {
           label: 'A店 来客数',
-          data: [62, 65, 93, 85, 51, 66, 47],
+          data: [10, 20, 30, 40, 50, 60, 70, 80, 90, 91, 92],
           backgroundColor: "rgba(219,39,91,0.5)"
-        },{
-          label: 'B店 来客数',
-          data: [55, 45, 73, 75, 41, 45, 58],
-          backgroundColor: "rgba(130,201,169,0.5)"
-        },{
-          label: 'C店 来客数',
-          data: [33, 45, 62, 55, 31, 45, 38],
-          backgroundColor: "rgba(255,183,76,0.5)"
         }
       ]
     },
