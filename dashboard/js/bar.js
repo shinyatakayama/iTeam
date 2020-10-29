@@ -4,7 +4,7 @@
   var myBarChart = new Chart(ctx, {
     type: 'bar',
     data: {
-      labels: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20','21', '22', '23', '24', '25', '26', '27', '28', '29', '30', '31'],
+      labels: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '25', '26', '27', '28', '29', '30', '31'],
       datasets: [
         {
           label: 'A店 来客数',
@@ -14,14 +14,17 @@
       ]
     },
     options: {
+      legend: {
+        display: false
+      },
       scales: {
         yAxes: [{
           ticks: {
             suggestedMax: 100,
             suggestedMin: 0,
             stepSize: 10,
-            callback: function(value, index, values){
-              return  value +  '%'
+            callback: function (value, index, values) {
+              return value + '%'
             }
           }
         }]
