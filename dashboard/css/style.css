@@ -11,27 +11,26 @@
     margin-top: -240px !important;
     /* グラフ中央に配置 */
     margin: auto;
-  }
+}
   
-  /* タイトル、値 */
-  .label-box .label {
+/* タイトル、値 */
+.label-box .label {
     color: #636363;
     text-align: center;
-  }
-  .label-box .label .title {
+}
+.label-box .label .title {
     font-size: 20px;
     letter-spacing: .05em;
     margin-bottom: 3px;
     padding-top: 13px;
-  }
-  .label-box .label .value {
+}
+.label-box .label .value {
     font-size: 60px;
     line-height: 1em;
-  }
-  .label-box .label .value .per {
+}
+.label-box .label .value .per {
     font-size: 20px;
-  }
-  
+}
 
 #alert ul{
     margin: 0; 
