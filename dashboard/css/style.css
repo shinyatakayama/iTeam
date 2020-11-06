@@ -43,4 +43,9 @@
     padding: 0; 
     margin: 0; 
     float: left;
+    border-left: 1px solid;
+}
+
+.first-menu{
+    border-left: none !important;
 }
