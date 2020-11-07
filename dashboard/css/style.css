@@ -31,21 +31,3 @@
 .label-box .label .value .per {
     font-size: 20px;
 }
-
-#alert ul{
-    margin: 0; 
-    padding: 0; 
-    list-style: none;
-}
-
-#alert li{ 
-    display: inline; 
-    padding: 0; 
-    margin: 0; 
-    float: left;
-    border-left: 1px solid;
-}
-
-.first-menu{
-    border-left: none !important;
-}
