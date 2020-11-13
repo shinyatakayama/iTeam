@@ -25,8 +25,6 @@ var chartJsPluginCenterLabel = {
             canvas.parentNode.insertBefore(labelBox, canvas.nextElementSibling);
         }
     }
-
-
 };
 
 // 上記プラグインの有効化
